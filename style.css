@@ -1,0 +1,186 @@
+*{
+    font-family: Campton;
+    padding:0;
+    margin: 0;
+}
+
+.nav_div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+nav{
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.14);
+    padding: 30px 0px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.login_btn{
+    border: 1px solid grey;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.login_btn i{
+    margin-right: 20px;
+}
+
+.btn_text{
+    font-size: 14px;
+}
+
+.grey_circle{
+    background-color:#E9e9e9;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.shop_cart i{
+    color: black;
+}
+
+.cat_menu{
+text-decoration: none;
+color: black;
+}
+
+
+
+/* Spacers */
+.div_align_space{
+    width: 10%;
+}
+
+.div_vert_space{
+    height: 25px;
+}
+
+.div_hor_space{
+    width: 25px;
+}
+
+/* Header */
+
+.header_div{
+    display:flex;
+    justify-content: flex-start;   
+    align-items: center;
+   }
+
+/* Details */
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.details h1{
+    margin-left:0;
+    padding-left:0;
+    font-size: 69px;
+    line-height: 134%;
+    text-align: Left;
+}
+
+button{
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.view_product_btn span{
+font-size: 18px;
+font-weight: medium;
+}
+
+.product_section{
+    background-color: #f0f0f0;
+    height: 890px;
+    width: 1000px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub_img{
+height: 250px;
+}
+
+.main_img{
+    height: 450px;
+}
+
+.swipe_arrow{
+    position:absolute;
+    top:500px;
+    right:15px;
+    width: 1015px;
+    display: block;
+}
+
+#left{
+    float:left;
+    font-size: 50px;
+    color:black;
+}
+
+#right{
+    float: right;
+    font-size: 50px;
+    color:black;
+}
+/* Categories */
+
+.icon_cat{
+    position:absolute;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top:990px;
+    width: 1378px;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    background-color:black;
+    font-size: 24px;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+
+.active{
+    color:#ffb8b8;
+    font-weight: bold;
+}
+
+.white_space{
+    width: 40.55%;
+}
+.grey_space{
+    background-color: #f0f0f0;
+    height: 200px;
+    width: 1000px;
+
+}
